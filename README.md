@@ -7,6 +7,171 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 
+<style>
+	*{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    background-color: black;
+ }
+    .main{
+    background-image: url("https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/refs/heads/main/Video%2053/assets/images/bg.jpg");
+    height: 644px;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+position: relative;
+}
+  .main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+nav  img {
+    height: 100px;
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100% - 100px);
+    gap: 23px;
+    padding: 0 30px;
+    position: relative;
+    z-index: 10;
+    font-family: martal system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap:  20px;
+}
+.btn{
+    color: white;
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.hero> :nth-child(1){
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+}
+.sepration{
+    height: 5px;
+    background-color: rgb(59, 57, 57);
+    opacity: 0.9;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+}
+.btn-red-sm{
+    background-color: #fb0606;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 555px;
+    position: relative;
+   margin-top: 20%;
+   z-index:1;
+    
+}
+
+.secImg video{
+    position: absolute;
+    top: 234px;
+    right: 81px;
+    width: 401px;
+    z-index:0 ;
+}
+
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+section.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    
+}
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{
+    background-color: rgb(94, 100, 104);
+}
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    height: 30px;
+}
+</style>
+
 
 
 </head>
